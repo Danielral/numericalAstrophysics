@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.9)  9 APR 2019 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.9)  9 APR 2019 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,23 +334,16 @@ e
 \c@lstlisting=\count125
 
 (./1a.tex (./poissonFunction.py
-Overfull \hbox (55.64188pt too wide) in paragraph at lines 4--5
-[][][][] 
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-)
-Overfull \hbox (55.64188pt too wide) in paragraph at lines 22--3
-[][][][] 
- []
-
-(./text/1a.txt) (./randomNumberGenerator.py
-Overfull \hbox (121.94334pt too wide) in paragraph at lines 1--2
+) (./text/1a.txt)
+(./randomNumberGenerator.py
+Overfull \hbox (71.94328pt too wide) in paragraph at lines 1--2
 [][][][] 
  []
 
@@ -365,96 +358,82 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 16.
 
-Overfull \hbox (121.94334pt too wide) in paragraph at lines 23--24
+Overfull \hbox (71.94328pt too wide) in paragraph at lines 23--24
 [][][][] 
  []
 
 
-Overfull \hbox (86.24255pt too wide) in paragraph at lines 39--40
+Overfull \hbox (36.2425pt too wide) in paragraph at lines 39--40
 [][][][] 
  []
 
 ) (./integration.py [2]) (./naturalCubicInterpolator.py
-Overfull \hbox (111.74312pt too wide) in paragraph at lines 4--5
+Overfull \hbox (61.74306pt too wide) in paragraph at lines 4--5
 [][][][] 
  []
 
 [3] [4]
-Overfull \hbox (264.7465pt too wide) in paragraph at lines 105--106
+Overfull \hbox (214.74644pt too wide) in paragraph at lines 105--106
 [][][][] 
  []
 
 [5]
-Overfull \hbox (223.9456pt too wide) in paragraph at lines 138--139
+Overfull \hbox (173.94554pt too wide) in paragraph at lines 138--139
 [][][][] 
  []
 
 ) (./differentiation.py [6]) (./distributionAndSorting.py [7]
-Overfull \hbox (239.24594pt too wide) in paragraph at lines 53--54
+Overfull \hbox (189.24588pt too wide) in paragraph at lines 53--54
 [][][][] 
  []
 
 [8]
-Overfull \hbox (249.44617pt too wide) in paragraph at lines 95--96
+Overfull \hbox (199.4461pt too wide) in paragraph at lines 95--96
 [][][][] 
  []
 
-[9]
-Overfull \hbox (152.54402pt too wide) in paragraph at lines 156--157
+
+Overfull \hbox (102.54396pt too wide) in paragraph at lines 156--157
 [][][][] 
  []
 
-[10])
-Overfull \hbox (218.84549pt too wide) in paragraph at lines 229--9
+[9] [10])
+Overfull \hbox (168.84543pt too wide) in paragraph at lines 229--9
 [][][][] 
  []
 
-(./rootFinding.py [11]) (./maximizeLikelihood.py [12] [13]))
+(./rootFinding.py) (./maximizeLikelihood.py [11] [12]) [13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 16.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
 
-! LaTeX Error: \begin{abstract} on input line 14 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \end{document}
-                   
-? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
- (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
+(./template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 16.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 16.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 8967AE2245A3F99A9C8C1D123F8589E5;37.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 14 (\begingroup)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 16.
+ ) 
 Here is how much of TeX's memory you used:
- 8391 strings out of 492701
- 119247 string characters out of 6134505
- 697872 words of memory out of 5000000
- 11414 multiletter control sequences out of 15000+600000
- 8788 words of font info for 32 fonts, out of 8000000 for 9000
+ 8387 strings out of 492701
+ 119211 string characters out of 6134505
+ 764872 words of memory out of 5000000
+ 11412 multiletter control sequences out of 15000+600000
+ 8181 words of font info for 30 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 31i,6n,40p,533b,1967s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb>
-Output written on template.pdf (14 pages, 212833 bytes).
+ 31i,6n,40p,533b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb>
+Output written on template.pdf (14 pages, 202892 bytes).
 PDF statistics:
- 1012 PDF objects out of 1200 (max. 8388607)
- 977 compressed objects within 10 object streams
+ 1008 PDF objects out of 1200 (max. 8388607)
+ 974 compressed objects within 10 object streams
  757 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,0 @@
-echo "Assignment1"
-
-if [ ! -d "plots" ]; then
-  mkdir plots
-fi
-
-pdflatex template.tex
-

@@ -68,7 +68,7 @@ for i in range(999):
 
 plot.scatter(nextRandomNumbers,tousandRandomNumbers)
 plot.title('Scatter Plot of Sequential Random Numbers')
-plot.savefig('plots/1bScatter.pdf')
+plot.savefig('plots/1bScatter.png')
 plot.close()
 
 
