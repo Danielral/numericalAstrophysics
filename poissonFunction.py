@@ -1,7 +1,4 @@
-import numpy
-
-
-#######################################################################################
+#######
 ###two functions which together will return the poisson distribution at any give point:
 
 
@@ -17,7 +14,3 @@ def poisson(lamb,k):
         return result
     result = numpy.float64(poisson(lamb,k-1) * lamb / k)
     return result
-
-
-#######################################################################################
-

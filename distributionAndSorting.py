@@ -1,6 +1,6 @@
 import numpy
-from matplotlib import pyplab as plot
-
+from matplotlib import pylab as plot
+from randomNumberGenerator import XORshift
 
 ####################################
 ###producing random values for a,b,c

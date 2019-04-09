@@ -112,8 +112,6 @@ def iWantToIntegrateThis(x):
 ###building up the numerical integrator, using Romberg algorithm
 
 
-#I'll make a table, containg all the steps taken to the final estimation of the integral (process)
-#1.simplest estimation, using just one trapezoid.
 #2.doubling the number of trapezoids in each step, and since we already know the values at half of these points, calculating the other half. so we are making better and better estimations by increasing the number of trapizoids, but, this is getting better linearly, and very slow.
 #3.we can make a better estimation, and very fast, using romberg integration. for that, solving the romberg equation, we use the previously calculated values, and make a better estimation (practically we are making our estimation better, by using the fact that we already know our error estimations).
 #this return the whole table and the best estimated value which is the [-1,-1] member of the table.
@@ -312,17 +310,16 @@ plot.yscale('log')
 plot.title('interpolation plot')
 #plot.show()
 
-nPlot = numpy.arange(-4.011,0.696,0.01)
-xPlot = []
-for i in range(len(nPlot)):
-    xPlot.append(10**(nPlot))
-yPlot = []
-for i in range(len(nPlot)):
-    yPlot.append(interpolate(x,y,xPlot[i]))
 
-plot.loglog(xPlot,yPlot)
-plot.savefig('plots/2b.png')
-
-
+xPlot = numpy.arange(-4,0.67,0.01)
+xFinal = []
+for i in range(len(xPlot)):
+    xFinal[i] = 10**(xPlot[i])
+yPlot = 0
+yFinal = numpy.zeros(len(xPlot))
+for i in range(len(xPlot)):
+    yPlot = interpolate(x,y,xFinal[i])
+    yFinal[i] = yPlot
+plot.loglog(xFinal,yFinal)
 ######
 

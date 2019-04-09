@@ -1,4 +1,7 @@
-####################################################################################################
+import numpy
+from matplotlib import pylab as plot
+
+#######
 ###random number generator, which for each time calling it, will produce a new random number for you
 
 
@@ -20,7 +23,7 @@ def XORshift():
     return float(lastRandom%(2**64))/(2**64)
 
 
-####################################################################################################
+#####
 ###producing 1000 random numbers between 0 and 1, and then plotting the scatter plot of x_i+1 vs x_i
 
 
@@ -36,7 +39,7 @@ for i in range(999):
 plot.scatter(nextRandomNumbers,tousandRandomNumbers)
 
 
-#############################################################################################
+######
 ###generating one million random numbers between 0 and 1, and plotting the results in 20 bins
 
 
