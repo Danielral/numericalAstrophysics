@@ -1,0 +1,18 @@
+\section{1a}
+\lstinputlisting{poissonFunction.py}
+\lstinputlisting{text/1a.txt}
+\section{1b}
+\lstinputlisting{randomNumberGenerator.py}
+\lstinputlisting{2a}
+\lstinputlisting{integration.py}
+\lstinputlisting{2b}
+\lstinputlisting{naturalCubicInterpolator.py}
+\lstinputlisting{2c}
+\lstinputlisting{differentiation.py}
+\lstinputlisting{2d}
+\lstinputlisting{binning.pdf}
+\lstinputlisting{distributionAndSorting}
+\lstinputlisting{rooFinding}
+\lstinputlisting{rootFinding.py}
+\lstinputlisting{Maximize Likelihood}
+\lstinputlisting{maximizeLikelihood.py}
